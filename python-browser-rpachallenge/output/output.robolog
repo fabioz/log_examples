@@ -1,0 +1,304 @@
+V 0.0.2
+T 2023-06-23T18:14:30.181+00:00
+ID 1|cbf688bf-11f1-11ee-a855-202b20a029af
+I "sys.platform=win32"
+I "python=3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:28:38) [MSC v.1929 64 bit (AMD64)]"
+M a:"tasks.py"
+SR a|0.001
+M c:"Collect tasks"
+M d:"setup"
+M e:""
+P b:c|d|e|e|0
+ST b|0.001
+M f:"regular"
+M g:"\nCollecting tasks from: x:\\robocorpws\\log_examples\\python-browser-rpachallenge\\tasks.py\n"
+C f|g|0.002
+M h:"PASS"
+ET h|e|0.724
+M j:"solve_challenge"
+M k:"tasks"
+M l:"x:\\robocorpws\\log_examples\\python-browser-rpachallenge\\tasks.py"
+M m:"Solve the RPA challenge"
+P i:j|k|l|m|5
+ST i|0.724
+M n:"=========================== "
+C f|n|0.724
+M o:"Running: "
+C f|o|0.725
+M p:"task_name"
+C p|j|0.725
+M q:" ===========================\n"
+C f|q|0.725
+P r:j|k|l|e|8
+M s:"METHOD"
+SE r|s|0.736
+P t:j|k|l|e|16
+M u:"page"
+M v:"Page"
+M w:"<Page url='https://rpachallenge.com/'>"
+AS t|u|v|w|4.97
+M y:"fill_the_forms"
+P x:y|k|l|e|22
+SE x|s|5.045
+M z:"worksheet"
+M A:"Worksheet"
+M B:"<robocorp.excel.worksheet.Worksheet object at 0x0000022C321F8A60>"
+AS x|z|A|B|5.121
+M D:"for row in worksheet.as_table(header=True)"
+P C:D|k|l|e|23
+M E:"FOR"
+SE C|E|5.121
+P F:D|k|l|e|24
+M G:"FOR_STEP"
+SE F|G|5.157
+M H:"row"
+M I:"dict"
+M J:"{'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}"
+EA H|I|J
+M L:"fill_and_submit_form"
+P K:L|k|l|e|32
+SE K|s|5.157
+EA H|I|J
+AS K|u|v|w|5.157
+EE s|h|5.337
+EE G|h|5.337
+SE F|G|5.337
+M M:"{'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}"
+EA H|I|M
+SE K|s|5.337
+EA H|I|M
+AS K|u|v|w|5.337
+EE s|h|5.524
+EE G|h|5.524
+SE F|G|5.524
+M N:"{'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 40735416854}"
+EA H|I|N
+SE K|s|5.524
+EA H|I|N
+AS K|u|v|w|5.524
+EE s|h|5.682
+EE G|h|5.682
+SE F|G|5.682
+M O:"{'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733652145}"
+EA H|I|O
+SE K|s|5.682
+EA H|I|O
+AS K|u|v|w|5.682
+EE s|h|5.854
+EE G|h|5.854
+SE F|G|5.854
+M P:"{'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 40799885412}"
+EA H|I|P
+SE K|s|5.854
+EA H|I|P
+AS K|u|v|w|5.854
+EE s|h|6.022
+EE G|h|6.022
+SE F|G|6.022
+M Q:"{'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 40733154268}"
+EA H|I|Q
+SE K|s|6.022
+EA H|I|Q
+AS K|u|v|w|6.022
+EE s|h|6.176
+EE G|h|6.176
+SE F|G|6.176
+M R:"{'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}"
+EA H|I|R
+SE K|s|6.185
+EA H|I|R
+AS K|u|v|w|6.185
+EE s|h|6.337
+EE G|h|6.337
+SE F|G|6.337
+M S:"{'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': 40731254562}"
+EA H|I|S
+SE K|s|6.337
+EA H|I|S
+AS K|u|v|w|6.337
+EE s|h|6.503
+EE G|h|6.503
+SE F|G|6.503
+M T:"{'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785214}"
+EA H|I|T
+SE K|s|6.503
+EA H|I|T
+AS K|u|v|w|6.503
+EE s|h|6.679
+EE G|h|6.679
+SE F|G|6.679
+M U:"{'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 40731653845}"
+EA H|I|U
+SE K|s|6.679
+EA H|I|U
+AS K|u|v|w|6.679
+EE s|h|6.879
+EE G|h|6.879
+EE E|h|6.879
+EE s|h|6.879
+M W:"collect_the_results"
+P V:W|k|l|e|27
+SE V|s|6.879
+M X:"element"
+M Y:"Locator"
+M Z:"<Locator frame=<Frame name= url='https://rpachallenge.com/'> selector='css=div.congratulations'>"
+AS V|X|Y|Z|6.879
+M 0:"<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA0sAAAC4CAYAAAAyqndcAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3X9cVGXeP/6XCCG5jrruKN7BXUOsrU7uCindw+1XCStcS7wVo9YRU8E2wlbdsXSRdHGBtXJu3YLcAvyYiJuUGlgGu4LUes9sHxVsc2hXSdygG3QyZfyaTJjn88fMML/OMGeGX5qv5+PB48HMnDlznetc55zrfc71Y9CPHl0hfPXTJBAREREREZFd4ODAILwddW6g00FERERERHRDCQwYHIif/OQnA50OIiIiIiKiG0ogAgIRGho60OkgIiIiIiK6oQQGDg7CsGHDBjodREREREREN5TAwYMHIygoaKDTQUREREREdEMJHDRYPFAaNGhQPyeFiIiIiIjoxhEIwftCDJyIiIiIiOhWEygI1/Hdd98BsAdFgwYNgiAIGDRokNP/REREREREt4pAOARLALoCpICAAKf3GDAREREREdGtZBBKzro1xPtRcAByJ/4AS+7+AQICAroCKAZLRERERER0qwgQe/Mr83Ws+/tlXLt2DYIgQBAkdGwiIiIiIiL6HhENlgDgq28FdHZ2djXRY9BERERERES3Eo/BEgB0dnbi+vXrDJKIiIiIiOiW022w9N133zFQIiIiIiKiW1K3wZINAyYiIiIiIrrVdBssMUgiIiIiIqJblaQnS0RERERERLcar8ESny4REREREdGtiE+WiIiIiIiIRDBYIiIiIiIiEsFgiYiIiIiISASDJSIiIiIiIhEMloiIiIiIiEQwWCIiIiIiIhLBYImIiIiIiEgEgyUiIiIiIiIRDJaIiIiIiIhEMFgiIiIiIiISwWCJiIiIiIhIBIMlIiIiIiIiEQyWiIiIiIiIRDBYIiIiIiIiEsFgiYiIiIiISASDJSIiIiIiIhEMloiIiIiIiEQwWCIiIiIiIhLBYImIiIiIiEgEgyUiIiIiIiIRDJaIiIiIiIhEeA2WBg0a1B/pICIiIiIiuqHwyRIREREREZGIboMlPlUiIiIiIqJblaQnSwyaiIiIiIjoVuMxWPphoIBBgwYxUCIiIiIioltSoNibIwZfx/N3CggICGDAREREREREt6RBo6enCAXLE7uCottuuw3h4eEYOXIkhg8fjpCQEAwePLgrcCIiIiIiIroVBAYNl2P8+PEALH2TAgICcPvt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\"/>"
+M 2:"screenshot"
+M 3:"robocorp.browser"
+M 4:"c:\\ProgramData\\robocorp\\ht\\545e18d_b1f3c24_6133770e\\lib\\site-packages\\robocorp\\browser\\__init__.py"
+P 1:2|3|4|e|187
+LH I|0|1|187|7.002
+EE s|h|7.003
+EE s|h|7.003
+C p|j|7.047
+M 5:" status: "
+C f|5|7.047
+M 6:"PASS\n"
+C f|6|7.048
+M 7:"================================================================================\n"
+C f|7|7.048
+ET h|e|7.048
+M 9:"Teardown tasks"
+M aa:"teardown"
+P 8:9|aa|e|e|0
+ST 8|7.048
+M ab:"Process snapshot"
+SPS ab|7.468
+M ac:"System information:\nMemory: Total: 38.8 G, Available: 19.7 G, Used: 49.2 %\nCPUs: 12"
+P ad:e|e|e|e|0
+L I|ac|ad|0|7.482
+M ae:"Current Process: python.exe (pid: 19008, status: running)\nCommand Line: c:\\ProgramData\\robocorp\\ht\\545e18d_b1f3c24_6133770e\\python.exe -m robocorp.tasks run x:\\robocorpws\\log_examples\\python-browser-rpachallenge\\tasks.py\nStarted: 15:14:30\nParent pid: 22100\nResident Set Size: 69.8 M\nVirtual Memory Size: 54.1 M"
+L I|ae|ad|0|7.498
+M af:"MainThread|Thread ID: 18060 (non daemon)"
+STD af|7.498
+M ag:"c:\\ProgramData\\robocorp\\ht\\545e18d_b1f3c24_6133770e\\lib\\site-packages\\robocorp\\log\\__init__.py"
+M ah:"process_snapshot"
+M ai:"robo_logger.process_snapshot()"
+TBE ag|183|ah|ai
+M aj:"logger_instances"
+M ak:"{<robocorp.log._robo_logger._RoboLogger object at 0x0000022C2FB4A370>: 1}"
+TBV aj|I|ak
+M al:"robo_logger"
+M am:"_RoboLogger"
+M an:"<robocorp.log._robo_logger._RoboLogger object at 0x0000022C2FB4A370>"
+TBV al|am|an
+M ao:"c:\\ProgramData\\robocorp\\ht\\545e18d_b1f3c24_6133770e\\lib\\site-packages\\robocorp\\log\\_robo_logger.py"
+M ap:"new_func"
+M aq:"return func(self, *args, **kwargs)"
+TBE ao|20|ap|aq
+M ar:"self"
+TBV ar|am|an
+M as:"args"
+M at:"tuple"
+M au:"()"
+TBV as|at|au
+M av:"kwargs"
+M aw:"{}"
+TBV av|I|aw
+M ax:"func"
+M ay:"function"
+M az:"<function _RoboLogger.process_snapshot at 0x0000022C2FB53550>"
+TBV ax|ay|az
+M aA:"return self._robot_output_impl.process_snapshot()"
+TBE ao|383|ah|aA
+TBV ar|am|an
+M aB:"c:\\ProgramData\\robocorp\\ht\\545e18d_b1f3c24_6133770e\\lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
+M aC:"self._dump_threads()"
+TBE aB|741|ah|aC
+M aD:"entry_id"
+M aE:"str"
+M aF:"'ps_0'"
+TBV aD|aE|aF
+M aG:"entry_type"
+M aH:"'process_snapshot'"
+TBV aG|aE|aH
+M aI:"psutil"
+M aJ:"module"
+M aK:"<module 'psutil' from 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
+TBV aI|aJ|aK
+M aL:"AccessDenied"
+M aM:"type"
+M aN:"<class 'psutil.AccessDenied'>"
+TBV aL|aM|aN
+M aO:"NoSuchProcess"
+M aP:"<class 'psutil.NoSuchProcess'>"
+TBV aO|aM|aP
+M aQ:"ZombieProcess"
+M aR:"<class 'psutil.ZombieProcess'>"
+TBV aQ|aM|aR
+M aS:"curr_process"
+M aT:"Process"
+M aU:"psutil.Process(pid=19008, name='python.exe', status='running', started='15:14:30')"
+TBV aS|aT|aU
+M aV:"log_info"
+M aW:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x0000022C31EB3CA0>"
+TBV aV|ay|aW
+M aX:"memory_info"
+M aY:"'Total: 38.8 G, Available: 19.7 G, Used: 49.2 %'"
+TBV aX|aE|aY
+M aZ:"child_i"
+M a0:"int"
+M a1:"0"
+TBV aZ|a0|a1
+M a2:"child"
+TBV a2|aT|aU
+M a3:"name"
+M a4:"'python.exe'"
+TBV a3|aE|a4
+M a5:"status"
+M a6:"'running'"
+TBV a5|aE|a6
+M a7:"create_time"
+M a8:"'15:14:30'"
+TBV a7|aE|a8
+M a9:"ppid"
+M ba:"'22100'"
+TBV a9|aE|ba
+M bb:"cmdline"
+M bc:"'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\python.exe -m robocorp.tasks run x:\\\\robocorpws\\\\log_examples\\\\python-browser-rpachallenge\\\\tasks.py'"
+TBV bb|aE|bc
+M bd:"rss"
+M be:"'69.8 M'"
+TBV bd|aE|be
+M bf:"vms"
+M bg:"'54.1 M'"
+TBV bf|aE|bg
+M bh:"proc_memory_info"
+M bi:"pmem"
+M bj:"pmem(rss=73220096, vms=56750080, num_page_faults=20391, peak_wset=73953280, wset=73220096, peak_paged_pool=202360, paged_pool=202184, peak_nonpaged_pool=44616, nonpaged_pool=39464, pagefile=56750080, peak_pagefile=57425920, private=56750080)"
+TBV bh|bi|bj
+M bk:"message"
+M bl:"'Current Process: python.exe (pid: 19008, status: running)\\nCommand Line: c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\python.exe -m robocorp.tasks run x:\\\\robocorpws\\\\log_examples\\\\python-browser-rpachallenge\\\\tasks.py\\nStarted: 15:14:30\\nParent pid: 22100\\nResident Set Size: 69.8 M\\nVirtual Memory Size: 54.1 M'"
+TBV bk|aE|bl
+M bm:"_RoboOutputImpl"
+M bn:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x0000022C2FB4A430>"
+TBV ar|bm|bn
+M bo:"_dump_threads"
+M bp:"stack.append((f, f.f_lineno))"
+TBE aB|759|bo|bp
+TBV ar|bm|bn
+M bq:"thread_id"
+M br:"18060"
+TBV bq|a0|br
+M bs:"frame"
+M bt:"<frame at 0x0000022C3262BA40, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 763, code _dump_threads>"
+TBV bs|bs|bt
+M bu:"thread"
+M bv:"_MainThread"
+M bw:"<_MainThread(MainThread, started 18060)>"
+TBV bu|bv|bw
+M bx:"title"
+M by:"'MainThread|Thread ID: 18060 (non daemon)'"
+TBV bx|aE|by
+M bz:"f"
+M bA:"<frame at 0x0000022C2DCD2CF0, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 242, code run>"
+TBV bz|bs|bA
+M bB:"stack"
+M bC:"list"
+M bD:"[(<frame at 0x0000022C3261D950, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 183, code process_snapshot>, 183), (<frame at 0x0000022C2DCACE20, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x0000022C32623520, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 383, code process_snapshot>, 383), (<frame at 0x0000022C30D924A0, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 741, code process_snapshot>, 741), (<frame at 0x0000022C3262BA40, file 'c:\\\\ProgramData\\\\robocorp\\\\ht\\\\545e18d_b1f3c24_6133770e\\\\lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 763, code _dump_threads>, 759)]"
+TBV bB|bC|bD
+ETD 7.514
+EPS 7.514
+ET h|e|7.514
+ER h|7.514
